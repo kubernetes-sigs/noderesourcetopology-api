@@ -1,6 +1,6 @@
-# See the OWNERS docs at https://go.k8s.io/owners
-
 approvers:
+  - k8s-api-approvers
   - nrt-approvers
 reviewers:
+  - k8s-api-reviewers
   - nrt-reviewers

@@ -1,0 +1,15 @@
+aliases:
+  k8s-api-reviewers:
+  - thockin
+  - liggitt 
+  k8s-api-approvers:
+  - thockin
+  - liggitt
+  nrt-reviewers:
+  - ffromani
+  - marquiz
+  - swatisehgal
+  nrt-approvers:
+  - ffromani
+  - marquiz
+  - swatisehgal
