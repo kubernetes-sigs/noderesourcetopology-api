@@ -1,8 +1,8 @@
 # NodeResourceTopology API
 
 ## Purpose
-This repository contains the CRD based API definition used for enabling NUMA aware Scheduling in Kubernetes.
-Please refer to [this](https://docs.google.com/document/d/12kj3fK8boNuPNq) document for more details.
+This repository contains the CRD based API definition used for enabling Topology aware Scheduling in Kubernetes.
+Please refer to [API.md](./API.md) document for more details.
 
 ## Community, discussion, contribution, and support
 
