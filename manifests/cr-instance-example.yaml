@@ -1,0 +1,43 @@
+---
+apiVersion: topology.node.k8s.io/v1alpha1
+kind: NodeResourceTopology
+metadata:
+  name: node1
+attributes:
+  Name: "topologyManagerPolicy"
+  Value: "single-numa-node"
+  Name: "topologyManagerScope"
+  Value: "pod"
+zones:
+  name:     node-0
+  type:     NUMA
+  costs:
+    name:   node-0
+    value:  10
+    name:   node-1
+  value:  21
+  resources:
+    name:         memory
+    allocatable:  48023056384
+    available:    48023056384
+    capacity:     49201655808
+    name:         cpu
+    allocatable:  51
+    available:    51
+    capacity:     52
+  name:     node-1
+  type:     NUMA
+  costs:
+    name:   node-0
+    value:  21
+    name:   node-1
+    value:  10
+  resources:
+    name:         cpu
+    allocatable:  51
+    available:    51
+    capacity:     52
+    name:         memory
+    allocatable:  50683113472
+    available:    50683113472
+    capacity:     50683113472
